@@ -1,4 +1,4 @@
-package com.fitnesstracker.permission
+package com.simplehealthapp.permission
 
 import com.google.android.gms.fitness.FitnessOptions
 import com.google.android.gms.fitness.data.DataType

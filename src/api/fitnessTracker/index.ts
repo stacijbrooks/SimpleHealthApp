@@ -1,5 +1,5 @@
 /**
- * @module FitnessTracker
+ * @module simplehealthapp
  */
 export * from './authorize';
 export * from './getData';

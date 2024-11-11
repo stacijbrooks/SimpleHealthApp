@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint RNFitnessTracker.podspec' to ensure this is a
+#  Be sure to run `pod spec lint RNsimplehealthapp.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -13,7 +13,7 @@ package = JSON.parse(File.read(File.join(__dir__, 'package.json')))
 
 Pod::Spec.new do |s|
 
-  s.name         = 'RNFitnessTracker'
+  s.name         = 'RNsimplehealthapp'
   s.version      = package['version']
   s.summary      = package['description']
   s.description  = package['description']

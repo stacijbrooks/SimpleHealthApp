@@ -1,6 +1,6 @@
 //
 //  RNFitnessUtils.swift
-//  RNFitnessTracker
+//  RNsimplehealthapp
 //
 //  Created by Matas on 2022-02-10.
 //  Copyright © 2022 Facebook. All rights reserved.

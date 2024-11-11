@@ -5,7 +5,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import ThemedImage from '@theme/ThemedImage';
-import { fitnessTracker, googleFitDark, googleFitLight, healthkitDark, healthkitLight } from '@site/static/img/example';
+import { simplehealthapp, googleFitDark, googleFitLight, healthkitDark, healthkitLight } from '@site/static/img/example';
 
 import styles from './index.module.css';
 
@@ -23,13 +23,13 @@ const features = [
     ),
   },
   {
-    title: 'FitnessTracker',
+    title: 'simplehealthapp',
     images: {
-      light: fitnessTracker
+      light: simplehealthapp
     },
     description: (
       <>
-        Best of it? You can use both HealthKit and GoogleFit at the same time, with single API. FitnessTracker will take care of the integration for you.
+        Best of it? You can use both HealthKit and GoogleFit at the same time, with single API. simplehealthapp will take care of the integration for you.
       </>
     ),
   },

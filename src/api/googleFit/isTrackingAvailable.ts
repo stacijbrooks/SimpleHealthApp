@@ -4,7 +4,7 @@ import { GoogleFitDataType } from '../../enums';
 import { handleAndroidMotionTrackingPermissions, isIOS } from '../../utils';
 
 /** @internal */
-const { RNFitnessTracker } = NativeModules;
+const { RNsimplehealthapp } = NativeModules;
 
 /**
  * Returns if specific permission is authorized and available on Android
@@ -20,7 +20,7 @@ export const isTrackingAvailable = async (
     let motionAuthResult = await handleAndroidMotionTrackingPermissions(false);
 
     if (motionAuthResult) {
-      motionAuthResult = await RNFitnessTracker.isTrackingAvailable(
+      motionAuthResult = await RNsimplehealthapp.isTrackingAvailable(
         readTypes,
         shareTypes,
       );

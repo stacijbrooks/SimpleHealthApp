@@ -31,7 +31,7 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Facebook;
 			};
-			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNFitnessTracker" */;
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNsimplehealthapp" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -135,7 +135,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNFitnessTracker" */ = {
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNsimplehealthapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58B511ED1A9E6C8500147676 /* Debug */,

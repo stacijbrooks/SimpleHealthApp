@@ -51,7 +51,7 @@ const config = {
       'docusaurus-plugin-typedoc',
 
       {
-        name: 'FitnessTracker',
+        name: 'simplehealthapp',
 
         entryPoints: ['../src'],
         tsconfig: '../tsconfig.json',

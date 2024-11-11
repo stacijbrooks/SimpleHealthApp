@@ -1,9 +1,9 @@
-package com.fitnesstracker.googlefit
+package com.simplehealthapp.googlefit
 
 import com.facebook.react.bridge.Promise
 import com.facebook.react.bridge.ReactApplicationContext
 import com.facebook.react.bridge.WritableMap
-import com.fitnesstracker.permission.Permission
+import com.simplehealthapp.permission.Permission
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.fitness.Fitness
 import com.google.android.gms.fitness.FitnessOptions

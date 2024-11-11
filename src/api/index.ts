@@ -3,20 +3,20 @@
  *
  * These methods work for both platforms: `iOS` and `Android`.
  */
-import * as FitnessTracker from './fitnessTracker';
+import * as simplehealthapp from './simplehealthapp';
 /**
  * Api methods for HealthKit.
  * These methods only work for `iOS`.
  *
- * You can find api methods for both platforms [FitnessTracker](./FitnessTracker.md)
+ * You can find api methods for both platforms [simplehealthapp](./simplehealthapp.md)
  */
 import * as HealthKit from './healthKit';
 /**
  * Api methods for GoogleFit.
  * These methods only work for `Android`.
  *
- * You can find api methods for both platforms [FitnessTracker](./FitnessTracker.md)
+ * You can find api methods for both platforms [simplehealthapp](./simplehealthapp.md)
  */
 import * as GoogleFit from './googleFit';
 
-export { FitnessTracker, GoogleFit, HealthKit };
+export { simplehealthapp, GoogleFit, HealthKit };

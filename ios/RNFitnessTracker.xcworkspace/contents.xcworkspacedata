@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:RNFitnessTracker.xcodeproj">
+      location = "group:RNsimplehealthapp.xcodeproj">
    </FileRef>
 </Workspace>

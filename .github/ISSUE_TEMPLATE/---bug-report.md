@@ -2,7 +2,7 @@
 name: "⚠️ Bug report"
 about: Please provide as much detail as possible. Issues may be closed if they do
   not follow the template
-title: "[iOS/Android] FitnessTracker/HealthKit/GoogleFit methodX returns undefined"
+title: "[iOS/Android] simplehealthapp/HealthKit/GoogleFit methodX returns undefined"
 labels: bug
 assignees: ''
 

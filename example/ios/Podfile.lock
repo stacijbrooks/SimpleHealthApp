@@ -351,7 +351,7 @@ PODS:
     - React-perflogger (= 0.68.2)
   - RNDeviceInfo (9.0.2):
     - React-Core
-  - RNFitnessTracker (3.1.0-alpha.3):
+  - RNsimplehealthapp (3.1.0-alpha.3):
     - React
   - RNPermissions (3.6.1):
     - React-Core
@@ -417,7 +417,7 @@ DEPENDENCIES:
   - React-runtimeexecutor (from `../node_modules/react-native/ReactCommon/runtimeexecutor`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - RNDeviceInfo (from `../node_modules/react-native-device-info`)
-  - RNFitnessTracker (from `../..`)
+  - RNsimplehealthapp (from `../..`)
   - RNPermissions (from `../node_modules/react-native-permissions`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
@@ -504,7 +504,7 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon"
   RNDeviceInfo:
     :path: "../node_modules/react-native-device-info"
-  RNFitnessTracker:
+  RNsimplehealthapp:
     :path: "../.."
   RNPermissions:
     :path: "../node_modules/react-native-permissions"
@@ -557,7 +557,7 @@ SPEC CHECKSUMS:
   React-runtimeexecutor: b960b687d2dfef0d3761fbb187e01812ebab8b23
   ReactCommon: 095366164a276d91ea704ce53cb03825c487a3f2
   RNDeviceInfo: 1e3f62b9ec32f7754fac60bd06b8f8a27124e7f0
-  RNFitnessTracker: 0c7f6a37ead683361ce774dabc0d747858bd0c82
+  RNsimplehealthapp: 0c7f6a37ead683361ce774dabc0d747858bd0c82
   RNPermissions: dcdb7b99796bbeda6975a6e79ad519c41b251b1c
   SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
   Yoga: 99652481fcd320aefa4a7ef90095b95acd181952

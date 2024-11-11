@@ -12,7 +12,7 @@ You should always wrap your code in a `try/catch` block, as methods may throw an
 ## Authorize
 
 :::caution
-Since HealthKit doesn't provide us to with permission status, `FitnessTracker.authorize()` works differently on **iOS** and **Android**.
+Since HealthKit doesn't provide us to with permission status, `simplehealthapp.authorize()` works differently on **iOS** and **Android**.
 
 - On **iOS** it returns `true` if no errors have occurred.
 - On **Android** it returns the permission authorization status:
@@ -39,11 +39,11 @@ const permissions: AuthorizationPermissions = {
 
 const getStepsToday = async () => {
   try {
-    const authorized = await FitnessTracker.authorize(permissions);
+    const authorized = await simplehealthapp.authorize(permissions);
 
     if (!authorized) return;
 
-    const stepsToday = await FitnessTracker.getStatisticTodayTotal(
+    const stepsToday = await simplehealthapp.getStatisticTodayTotal(
       FitnessDataType.Steps,
     );
 

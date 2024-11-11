@@ -1,10 +1,10 @@
-package com.fitnesstracker.googlefit
+package com.simplehealthapp.googlefit
 
 import android.app.Activity
 import android.content.Intent
 import com.facebook.react.bridge.*
-import com.fitnesstracker.permission.Permission
-import com.fitnesstracker.permission.PermissionKind
+import com.simplehealthapp.permission.Permission
+import com.simplehealthapp.permission.PermissionKind
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 import com.google.android.gms.common.api.ApiException

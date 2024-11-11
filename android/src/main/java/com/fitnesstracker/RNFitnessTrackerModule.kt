@@ -1,22 +1,22 @@
-package com.fitnesstracker
+package com.simplehealthapp
 
 import android.app.Activity
 import com.facebook.react.bridge.*
-import com.fitnesstracker.googlefit.DateHelper
-import com.fitnesstracker.googlefit.GoogleFitManager
-import com.fitnesstracker.permission.Permission
-import com.fitnesstracker.permission.PermissionKind
+import com.simplehealthapp.googlefit.DateHelper
+import com.simplehealthapp.googlefit.GoogleFitManager
+import com.simplehealthapp.permission.Permission
+import com.simplehealthapp.permission.PermissionKind
 import com.google.android.gms.fitness.FitnessOptions
 import java.util.*
 
 
-class RNFitnessTrackerModule(reactContext: ReactApplicationContext) :
+class RNsimplehealthappModule(reactContext: ReactApplicationContext) :
     ReactContextBaseJavaModule(reactContext) {
 
     private val googleFitManager: GoogleFitManager = GoogleFitManager(reactContext)
 
     override fun getName(): String {
-        return "RNFitnessTracker"
+        return "RNsimplehealthapp"
     }
 
     @ReactMethod

@@ -1,4 +1,4 @@
-package com.fitnesstracker.googlefit
+package com.simplehealthapp.googlefit
 
 import com.facebook.react.bridge.Promise
 import com.facebook.react.bridge.ReactApplicationContext

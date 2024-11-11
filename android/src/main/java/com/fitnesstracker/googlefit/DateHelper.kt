@@ -1,4 +1,4 @@
-package com.fitnesstracker.googlefit
+package com.simplehealthapp.googlefit
 
 import java.text.SimpleDateFormat
 import java.util.*

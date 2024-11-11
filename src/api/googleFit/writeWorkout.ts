@@ -4,7 +4,7 @@ import { GoogleFitWorkoutType } from '../../enums';
 import { isIOS } from '../../utils';
 
 /** @internal */
-const { RNFitnessTracker } = NativeModules;
+const { RNsimplehealthapp } = NativeModules;
 
 /**
  * Records given workout data to GoogleFit API
@@ -37,7 +37,7 @@ export const writeWorkout = async (options: {
         : {},
     );
 
-    return RNFitnessTracker.writeWorkout(
+    return RNsimplehealthapp.writeWorkout(
       +options.startDate,
       +options.endDate,
       options,

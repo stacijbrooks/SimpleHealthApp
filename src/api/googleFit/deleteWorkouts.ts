@@ -3,7 +3,7 @@ import { NativeModules } from 'react-native';
 import { isIOS } from '../../utils';
 
 /** @internal */
-const { RNFitnessTracker } = NativeModules;
+const { RNsimplehealthapp } = NativeModules;
 
 /**
  * Deletes all workouts for given time period.
@@ -18,6 +18,6 @@ export const deleteWorkouts = async (
   endDate: Date | number,
 ): Promise<boolean> => {
   if (!isIOS) {
-    return RNFitnessTracker.deleteWorkouts(+startDate, +endDate);
+    return RNsimplehealthapp.deleteWorkouts(+startDate, +endDate);
   }
 };

@@ -12,7 +12,7 @@ import {
 import {
   AuthorizationPermissions,
   FitnessDataType,
-  FitnessTracker,
+  simplehealthapp,
   GoogleFitDataType,
   HealthKitDataType,
   HealthKit,
@@ -85,13 +85,13 @@ const App = () => {
   >(undefined);
 
   const authorize = async () => {
-    await FitnessTracker.authorize(permissions);
+    await simplehealthapp.authorize(permissions);
 
     setAuthorized(true);
   };
 
   const getStepsToday = async () => {
-    const steps = await FitnessTracker.getStatisticTodayTotal(
+    const steps = await simplehealthapp.getStatisticTodayTotal(
       FitnessDataType.Steps,
     );
     setStepsToday(steps);
@@ -141,8 +141,8 @@ const App = () => {
 
   const getHeightAndWeight = async () => {
     try {
-      const h = await FitnessTracker.getLatestHeight();
-      const w = await FitnessTracker.getLatestWeight();
+      const h = await simplehealthapp.getLatestHeight();
+      const w = await simplehealthapp.getLatestWeight();
 
       setHeight(h);
       setWeight(w);
@@ -196,7 +196,7 @@ const App = () => {
 
   const checkIfTrackingIsAvailableUnsafe = async () => {
     try {
-      const result = await FitnessTracker.UNSAFE_isTrackingAvailable(
+      const result = await simplehealthapp.UNSAFE_isTrackingAvailable(
         FitnessDataType.Steps,
       );
       setUnsafeAuthorization(result);
